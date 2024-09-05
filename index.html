@@ -1,13 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing page Product</title>
     <link rel="stylesheet" href="style.css">
-    
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </head>
+
 <body>
-    
+    <!--landing page-->
+    <div class="container">
+        <div class="title">
+            <h1><i class='bx bxs-camera-home' style='color:#007bff'></i>Landing page - Cámara de Seguridad</h1>
+            <h4>¡Obtén seguridad para tu casa ahora!</h4>
+        </div>
+        <div class="container-product">
+            <div class="img-product">
+                <button class="nav-button prev" onclick="prevImage()">&#10094;</button>
+                <img id="product-image" src="img1.webp" alt="img-camara">
+                <button class="nav-button next" onclick="nextImage()">&#10095;</button>
+            </div>
+            <div class="info-product">
+                <h3>Tp-link, Cámara IP Wifi Exterior Robótica Full HD, Tapo C500 Color Blanco</h3>
+                <ul>
+                    <li><i class='bx bx-memory-card'></i>Capacidad de almacenamiento de 512GB.</li>
+                    <li><i class='bx bx-sort-alt-2'></i>Audio bidireccional.</li>
+                    <li><i class='bx bx-low-vision'></i>Incluye visión nocturna.</li>
+                    <li><i class='bx bx-move'></i>Con sensor de movimiento.</li>
+                </ul>
+                <p><i class='bx bx-building-house'></i>Ayuda a tu casa a convertirla en una casa inteligente y que más
+                    comenzando con la seguridad de ella y de tus hijos.</p>
+            </div>
+        </div>
+        <div class="reseñas">
+            <h2><i class='bx bx-chat'></i>Reseñas de nuestros clientes</h2>
+            <div>
+                <div>
+                    <h3>Andres Antonio</h3>
+                    <p>Excelente producto, muy buena calidad y muy fácil de usar.</p>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <div>
+                    <h3>Andrea Lucia</h3>
+                    <p>Buen producto, como lo esperaba. Muchas gracias.</p>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <div>
+                    <h3>Pedro Escamoso</h3>
+                    <p>Me gustó, ahora mi casa está protegida.</p>
+                    <i class='bx bxs-star'></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
+
 </html>
